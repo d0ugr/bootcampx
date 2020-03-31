@@ -1,5 +1,6 @@
 
 
+
 SELECT AVG(total_duration) AS average_total_duration
 FROM (
   SELECT   SUM(completed_at - started_at) AS total_duration
